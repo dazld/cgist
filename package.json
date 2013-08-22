@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "oauth": "~0.9.10",
+    "express": "~3.3.5"
+  }
+}
