@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "oauth": "~0.9.10",
-    "express": "~3.3.5"
+    "express": "~3.3.5",
+    "request": "~2.27.0",
+    "q": "~0.9.6",
+    "backbone": "~1.0.0"
   }
 }
