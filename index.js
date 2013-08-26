@@ -19,9 +19,11 @@ io.sockets.on('connection', function(socket) {
 	socket.emit('news', {
 		hello: 'world'
 	});
-	socket.on('changed', function(data) {
+	socket.on('delta:tx', function(data) {
 		console.log(data);
-		socket.emit('ping',{ok:true});
+		socket.emit('delta:rx', {
+			ok: true
+		});
 	});
 });
 
